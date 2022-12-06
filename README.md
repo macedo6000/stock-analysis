@@ -5,6 +5,10 @@ This stock analysis was created to analyze the performance of the entire stock m
 
 
 ## Results
-### 
+#### 2017 Stock Analysis
+
+![](./Resources/2017_Table.png) ![](./Resources/2018_Table.png)
+
+
 
 ## Summary
