@@ -13,13 +13,15 @@ According to the "All Stocks 2017" table, the best performing green energy stock
 
 ![](./Resources/2017_Table.png) ![](./Resources/2018_Table.png)
 
-#### VBA Analysis
-The initial VBA code to conduct the Green Stock Analysis was created with the purpose of looping throught the dataset to retrieve the information needed to make a decision, but was not time efficient in processing the code. 
+#### VBA Code Execution Time
+The initial VBA code to conduct the Green Stock Analysis was created with the purpose of retrieve the information needed to make a decision, but was not time efficient in processing the code. The code for 2017 and 2018 took 0.84375 and 0.78125 seconds to process, respectively.
 
 ![](./Resources/VBA_Challenge_2017.png) ![](./Resources/VBA_Challenge_2018.png)
 
-Refactoring the code enabled the code to not only retrieve data but to retrieve data much faster than the original VBA code. 
+Refactoring the code enabled it to not only retrieve data but to retrieve data much faster than the original VBA code. The time for the refactored code to process for 2017 and 2018 took 0.0625 and 0.0390625 seconds, respectively. The processing time decreased by 0.78125 for 2017 and 0.7421875 for 2018.
 
 ![](./Resources/seconds_refactoredcode_2017.png) ![](./Resources/seconds_refactoredcode_2018.png)
 
 ## Summary
+Based on this analysis, refactoring the code processes the original script at a much faster rate than the initial time it took to process. However, it is evident that there are advantages and disadvantages of refactoring code and of the original and refactored VBA script.
+The advantages of refactoring code is that it creates a more condensed and cleaner script. It also runs the code more efficient with time while keeping the function intact. The disadvantage of refactoring code is having to make changes to code that already works and having to debug while making sure the code processes in the initial function.
